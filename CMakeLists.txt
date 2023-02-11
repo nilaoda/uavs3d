@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.1)
 
 project(uavs3d)
 
-option(COMPILE_10BIT "Enable 10bit streams decoding support." OFF)
+option(COMPILE_10BIT "Enable 10bit streams decoding support." ON)
 
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
